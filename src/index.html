@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-slate-100 min-h-screen flex justify-center items-center	">
+    <section class="w-[300px] h-[500px] shadow-xl rounded-xl bg-slate-800 overflow-hidden">
+        <form>
+            <input type="text" class="screen w-full h-[150px] rounded-xl text-3xl p-4 text-slate-50	bg-slate-900 text-right	pointer-events-none	">
+        </form>
+        <div class=" flex flex-wrap	justify-between	p-5	">
+
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-amber-400 mb-3" data-num="*">*</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-amber-400 mb-3" data-num="/">/</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-amber-400 mb-3" data-num="-">-</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-amber-400 mb-3" data-num="+">+</button>
+
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="9">9</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="8">8</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="7">7</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="6">6</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="5">5</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="4">4</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="3">3</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="2">2</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="1">1</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num="0">0</button>
+            <button type="button" class="btn flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-slate-100 mb-3" data-num=".">.</button>
+
+            <button type="button" class=" equal flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-green-600 mb-3"> = </button>
+            <button type="button" class="btn clear flex-2 w-[60px] h-[52px] text-2xl font-semibold rounded-xl cursor-pointer bg-red-600 mb-3">C</button>
+        </div>
+    </section>
+    <script src="./js/script.js "></script>
+</body>
+
+</html>
